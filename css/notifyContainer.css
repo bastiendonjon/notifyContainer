@@ -1,0 +1,43 @@
+.notifyContainer.notifyContainer-container {
+    padding: 5px 0;
+    box-shadow: -4px 4px 4px -4px #000;
+}
+
+.notifyContainer-close{
+    font-size: 14px;
+    position: absolute; 
+    top: 5px;
+    right: 5px;
+}
+
+.notifyContainer-success {
+    background-color: #00cc66;
+}
+
+.notifyContainer-error {
+    background-color: red;
+    color: #fff;
+}
+
+.notifyContainer-error .notifyContainer-close {
+    color: #fff;
+}
+
+.notifyContainer-info {
+    background-color: #0073ea;
+    color: #fff;
+}
+
+.notifyContainer-info .notifyContainer-close {
+    color: #fff;
+}
+
+.notifyContainer-container p {
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.notifyContainer-container ul {
+    padding: 0 0 0 30px;
+    margin: 0;
+}
