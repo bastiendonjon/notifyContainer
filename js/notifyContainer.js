@@ -1,3 +1,10 @@
+/*
+ * notifyContainer - v0.1
+ * http://blog.vicus.fr
+ *
+ * Copyright (c) 2013 - Bastien Donjon
+ * Dual licensed under the MIT or GPL licenses.
+ */
 (function($)
 {
     $.fn.notifyContainer = function(options)
