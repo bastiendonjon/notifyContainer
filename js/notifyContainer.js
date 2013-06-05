@@ -1,6 +1,6 @@
 /*
  * notifyContainer - v0.1
- * http://blog.vicus.fr
+ * http://bastien-donjon.fr
  *
  * Copyright (c) 2013 - Bastien Donjon
  * Dual licensed under the MIT or GPL licenses.
@@ -37,8 +37,7 @@
             var elemClose = $("<a>", {
                 "href": "#",
                 "class": "notifyContainer-close"
-            }).text("X")
-            .on("click", function(){
+            }).text("X").on("click", function(){
                 $(this).closest(".notifyContainer").hide();
             });
             
